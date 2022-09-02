@@ -1,14 +1,17 @@
 *{
+    
     background-color:darkcyan;
     margin: 0;
     padding:0;
 }
 
+
+
 #titulo h1{
     color: rgb(255, 44, 90);
     font-size: 55px;
     font-family: 'Courier New', Courier, monospace;
-   
+   background-image: url("https://img.freepik.com/foto-gratis/textura-negra-fondo_1160-614.jpg?w=2000");
     background-color: black;
     
 }
