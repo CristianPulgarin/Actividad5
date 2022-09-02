@@ -18,7 +18,7 @@
 
 
 
-#item1 {
+#item1 a{
     
     width: 100%;
 	margin: auto;
@@ -28,7 +28,12 @@
 	display: flex;
 	flex-wrap:wrap;
 	justify-content:center;
+    color: black;
+    text-align: center;
+    
 }
+
+
 
 #item1 h1{
     border: 4px solid navajowhite;
@@ -38,6 +43,7 @@
     float: right;
     width: 55%;
     color: aliceblue;
+    cursor: pointer;
 }
 
 #item1 p{
@@ -48,10 +54,12 @@
     border: 4px solid rgb(255, 44, 90);
     border-style: dashed;
 width: 55%;
+cursor: pointer;
 }
 
 
-#item2 {
+#item2 a{
+    
     width: 100%;
 	margin: auto;
 	list-style: none;
@@ -60,8 +68,12 @@ width: 55%;
 	display: flex;
 	flex-wrap:wrap;
 	justify-content:center;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    
+    
 }
-
 #item2 h1{
     background-color: rgb(255, 44, 90);
     float: center;
@@ -83,7 +95,8 @@ width: 55%;
 
 
 
-#item3 {
+#item3 a{
+    
     width: 100%;
 	margin: auto;
 	list-style: none;
@@ -92,6 +105,9 @@ width: 55%;
 	display: flex;
 	flex-wrap:wrap;
 	justify-content:center;
+    color: black;
+    text-align: center;
+    
 }
 
 #item3 h1{
@@ -118,7 +134,8 @@ width: 55%;
 
 
 
-#item4 {
+#item4 a{
+    
     width: 100%;
 	margin: auto;
 	list-style: none;
@@ -127,6 +144,9 @@ width: 55%;
 	display: flex;
 	flex-wrap:wrap;
 	justify-content:center;
+    color: black;
+    text-align: center;
+    
 }
 
 #item4 h1{
@@ -146,3 +166,17 @@ width: 55%;
 
 width: 55%;
 }
+
+
+img{
+    width: 30%;
+    height: 20%;
+	margin: auto;
+	list-style: none;
+	padding: 10px;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+
