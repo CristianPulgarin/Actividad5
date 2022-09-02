@@ -1,0 +1,151 @@
+*{
+    background-color:darkcyan;
+    margin: 0;
+    padding:0;
+}
+
+#titulo h1{
+    color: rgb(255, 44, 90);
+    font-size: 55px;
+    font-family: 'Courier New', Courier, monospace;
+   
+    background-color: black;
+    
+}
+
+
+
+#item1 {
+    
+    width: 100%;
+	margin: auto;
+	list-style: none;
+	padding: 10px;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+
+#item1 h1{
+    border: 4px solid navajowhite;
+    border-style:dashed;
+    text-align: center;
+    background-color: rgb(255, 44, 90);
+    float: right;
+    width: 55%;
+    color: aliceblue;
+}
+
+#item1 p{
+    display:flexbox;
+    font-size: 30px;
+    background-color:navajowhite;
+    float: right;
+    
+border: 4px solid rgb(255, 44, 90);
+border-style:dashed;
+width: 55%;
+}
+
+
+#item2 {
+    width: 100%;
+	margin: auto;
+	list-style: none;
+	padding: 10px;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+
+#item2 h1{
+    background-color: rgb(255, 44, 90);
+    float: center;
+    width: 55%;
+    color: aliceblue;
+    text-align: center;
+    border: 4px solid lightblue;
+    border-style: dashed;
+}
+
+#item2 p{
+    display: flexbox;
+    font-size: 30px;
+    background-color:lightblue;
+    float: center;
+    border: 4px solid rgb(255, 44, 90);
+    border-style: dashed;
+    
+
+width: 55%;
+}
+
+
+
+
+
+#item3 {
+    width: 100%;
+	margin: auto;
+	list-style: none;
+	padding: 10px;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+
+#item3 h1{
+    background-color: rgb(255, 44, 90);
+    float: left;
+    width: 55%;
+    color: aliceblue;
+    text-align: center;
+}
+
+#item3 p{
+    display: flexbox;
+    font-size: 30px;
+    background-color:lightseagreen;
+    float: left;
+    
+border: 4px solid deeppink;
+border-style: dotted;
+width: 55%;
+}
+
+
+
+
+
+#item4 {
+    width: 100%;
+	margin: auto;
+	list-style: none;
+	padding: 10px;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+
+#item4 h1{
+    background-color: rgb(255, 44, 90);
+    float: left;
+    width: 55%;
+    color: aliceblue;
+    text-align: center;
+}
+
+#item4 p{
+    display: flexbox;
+    font-size: 30px;
+    background-color:darkseagreen;
+    float: left;
+    
+border: 4px solid deeppink;
+border-style: dotted;
+width: 55%;
+}
